@@ -17,7 +17,8 @@ PRODUCT_RELEASE_NAME := Optimus3DMAX
 PRODUCT_VERSION_DEVICE_SPECIFIC :=
 -include vendor/cm/config/common_versions.mk
 
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=cx2_open_eur BUILD_FINGERPRINT=lge/cx2_open_eur/cx2:2.3.6/GRK39F/LGP720-V10a.1c042d568e:user/release-keys PRIVATE_BUILD_DESC="cx2-user 2.3.6 GRK39F LGP720-V10a-MAR-29-2012.47b8c603 release-keys"
+#PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=cx2_open_eur BUILD_FINGERPRINT=lge/cx2_open_eur/cx2:2.3.6/GRK39F/LGP720-V10a.1c042d568e:user/release-keys PRIVATE_BUILD_DESC="cx2-user 2.3.6 GRK39F LGP720-V10a-MAR-29-2012.47b8c603 release-keys"
+PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=cx2_open_eur BUILD_FINGERPRINT="lge/cx2_open_eur/cx2_open_eur:4.2.1/IMM76P/47E63EA8:user/release-keys" PRIVATE_BUILD_DESC="cx2-user 4.2.1 IMM76P 330938 release-keys"
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := p720
