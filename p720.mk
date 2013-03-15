@@ -129,7 +129,7 @@ PRODUCT_PACKAGES += \
     Tag
 
 FRAMEWORKS_BASE_SUBDIRS += \
-	$(addsuffix /java, omapmmlib )
+	$(addsuffix /java, omapmmlib)
 
 #FRAMEWORKS_BASE_SUBDIRS += \
 #	../../$(LOCAL_PATH)/framework-addons/
@@ -137,9 +137,6 @@ FRAMEWORKS_BASE_SUBDIRS += \
 PRODUCT_PACKAGES += \
     libskiahwdec \
     libskiahwenc
-
-## Radio fixes
-FRAMEWORKS_BASE_SUBDIRS += ../../$(LOCAL_PATH)/ril/
 
 #copy firmware
 PRODUCT_COPY_FILES += \
