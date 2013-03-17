@@ -138,6 +138,9 @@ PRODUCT_PACKAGES += \
     libskiahwdec \
     libskiahwenc
 
+## Radio fixes
+#FRAMEWORKS_BASE_SUBDIRS += ../../$(LOCAL_PATH)/ril/
+
 #copy firmware
 PRODUCT_COPY_FILES += \
   system/bluetooth/data/main.conf:system/etc/bluetooth/main.conf
