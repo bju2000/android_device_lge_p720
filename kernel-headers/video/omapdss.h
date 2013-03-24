@@ -565,7 +565,7 @@ struct omap_writeback {
 			struct omap_writeback_info *info);
 };
 
-#if defined(CONFIG_MACH_LGE_COSMO_3D_DISPLAY) //##hwcho_20120522
+#if defined(CONFIG_MACH_LGE_COSMO_3D_DISPLAY) || defined(CONFIG_MACH_LGE_CX2_3D_DISPLAY) //##hwcho_20120522
 /* Stereoscopic Panel types
  * row, column, overunder, sidebyside options
  * are with respect to native scan order
